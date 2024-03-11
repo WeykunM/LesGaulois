@@ -18,9 +18,4 @@ public enum Equipement {
         return nom;
     }
 
-    public static void main(String[] args) {
-        // Testing the Equipement enum
-        System.out.println("Afficher CASQUE: " + Equipement.CASQUE);
-        System.out.println("Afficher BOUCLIER: " + Equipement.BOUCLIER);
-    }
 }

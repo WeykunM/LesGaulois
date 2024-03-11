@@ -1,13 +1,15 @@
 package personnages;
 
-public class Romain {
+public class romain2 {
+
+
 	private String nom;
 	private int force;
 	private int ForceDebut = force;
 	private Equipement[] equipements = new Equipement[2];
 	private int nbEquipement = 0;
 
-	public Romain(String nom, int force) {
+	public romain2(String nom, int force) {
 		this.nom = nom;
 		assert force > 0 : this.force = force;
 	}
